@@ -1,15 +1,4 @@
-
-.h2Main {
-    display: flex;
-    justify-content: center;
-    color: black;
-    font-size: 25px;
-    font-family: "Poppins", sans-serif;
-    padding: 10px;
-
-  }
-
-  .divIndex {
+.divIndex {
     display: grid;
     justify-content: center;
     grid-template-columns: 1fr 1fr 1fr;
@@ -39,11 +28,6 @@
    }
   }
 
-  .h2Ind {
-    display: flex;
-    padding-top: 50px;
-    justify-content: center;
-  }
 
   .lomas {
     display: grid;

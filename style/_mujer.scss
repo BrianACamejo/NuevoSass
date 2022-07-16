@@ -1,5 +1,6 @@
 .mainH {
     margin-bottom: 80px;
+    
     .tamañoSub {
         background-color: #BEFFCB;
         color: black;
@@ -10,11 +11,7 @@
         display: flex;
         padding: 1px;
         margin: 0px;
-        .h2Ind {
-          display: flex;
-          padding-top: 50px;
-          justify-content: center;
-
+        
           .lomas2 {
             display: grid;
             justify-content: center;
@@ -43,4 +40,4 @@
           }
         }
       }
-  }
+  

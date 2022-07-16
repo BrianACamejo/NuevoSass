@@ -75,8 +75,9 @@ footer {
   margin: 0px;
 }
 .h2Ind {
-  display: flex;
-  padding-top: 50px;
+  display: grid;
+  padding-top: 30px;
+  padding-bottom: 30px;
   justify-content: center;
 }
 .lomas2 {
