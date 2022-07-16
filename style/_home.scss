@@ -1,0 +1,81 @@
+
+.h2Main {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+
+  }
+
+  .divIndex {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1f;
+    gap: 0px 5px;
+    grid-template-areas: " uno dos tres" " cuatro cinco seis";
+    padding-left: 200px;
+    padding-bottom: 40px;
+
+    .uno {
+        grid-area: uno;
+    .dos {
+        grid-area: dos;
+    .tres {
+        grid-area: tres;
+    .cuatro {
+        grid-area: cuatro;
+    .cinco {
+        grid-area: cinco;
+    .seis {
+        grid-area: seis;
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+
+  .h2Ind {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+  }
+
+  .lomas {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 40px;
+    grid-template-areas: "siete ocho nueve diez";
+    padding: 10px 30px 30px 30px;
+
+    .siete {
+        grid-area: siete;
+    .ocho {
+        grid-area: ocho;
+    .nueve {
+        grid-area: nueve;
+    .diez {
+        grid-area: diez;
+            }
+        }
+       }    
+      }
+     }
+
+     .tamañoSub2 {
+        background-color: #BEFFCB;
+        color: black;
+        font-size: 25px;
+        font-family: "Poppins", sans-serif;
+        text-decoration: none;
+        justify-content: center;
+        display: flex;
+        padding: 1px;
+        margin: 0px;
+      } 

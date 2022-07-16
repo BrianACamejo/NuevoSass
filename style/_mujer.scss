@@ -1,0 +1,46 @@
+.mainH {
+    margin-bottom: 80px;
+    .tamañoSub {
+        background-color: #BEFFCB;
+        color: black;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        text-decoration: none;
+        justify-content: center;
+        display: flex;
+        padding: 1px;
+        margin: 0px;
+        .h2Ind {
+          display: flex;
+          padding-top: 50px;
+          justify-content: center;
+
+          .lomas2 {
+            display: grid;
+            justify-content: center;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            gap: 0px 40px;
+            grid-template-areas: "siete2 ocho2 nueve2 diez2";
+            padding: 20px 30px 5px 30px;
+
+            .siete2 {
+              grid-area: siete2;
+            }
+            
+            .ocho2 {
+              grid-area: ocho2;
+            }
+            
+            .nueve2 {
+              grid-area: nueve2;
+            }
+            
+            .diez2 {
+              grid-area: diez2;
+            }
+
+          }
+        }
+      }
+  }

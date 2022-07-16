@@ -1,0 +1,198 @@
+@charset "UTF-8";
+/* TIPOS DE FUENTES */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Oswald:wght@300&family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=DM+Serif+Display&family=Oswald:wght@300&family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=DM+Serif+Display&family=Oswald:wght@300&family=Poppins:wght@200&family=Source+Sans+Pro:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;400&family=DM+Serif+Display&family=Oswald:wght@300&family=Poppins:wght@200&family=Source+Sans+Pro:wght@600&family=Tiro+Tamil&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;400&family=DM+Serif+Display&family=Oswald:wght@300&family=Poppins:wght@200;300&family=Source+Sans+Pro:wght@600&family=Tiro+Tamil&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #CDCDCD;
+  padding: 30px 50px 0px 20px;
+  display: grid;
+  justify-content: center;
+}
+header nav ul li {
+  list-style-type: none;
+  display: inline-flex;
+  padding: 5px 0px 10px 30px;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  text-decoration: none;
+}
+.secciones {
+  display: flex;
+  justify-content: center;
+}
+#logo {
+  display: flex;
+  justify-content: center;
+}
+a {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+footer {
+  background-color: #CDCDCD;
+  padding: 30px 50px 0px 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "p1" "p2";
+  justify-items: center;
+}
+.p1 {
+  grid-area: p1;
+}
+.p2 {
+  grid-area: p2;
+}
+
+.mainH {
+  margin-bottom: 80px;
+}
+.tamañoSub {
+  background-color: #BEFFCB;
+  color: black;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
+  padding: 1px;
+  margin: 0px;
+}
+.carrusel {
+  margin: 0px;
+}
+.h2Ind {
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+}
+.lomas2 {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 40px;
+  grid-template-areas: "siete2 ocho2 nueve2 diez2";
+  padding: 20px 30px 5px 30px;
+}
+.siete2 {
+  grid-area: siete2;
+}
+.ocho2 {
+  grid-area: ocho2;
+}
+.nueve2 {
+  grid-area: nueve2;
+}
+.diez2 {
+  grid-area: diez2;
+}
+
+.divIndex {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1f;
+  gap: 0px 5px;
+  grid-template-areas: " uno dos tres" " cuatro cinco seis";
+  padding-left: 200px;
+  padding-bottom: 40px;}
+
+  .uno {
+      grid-area: uno; }
+  .dos {
+      grid-area: dos;  }
+  .tres {
+      grid-area: tres;  }
+  .cuatro {
+      grid-area: cuatro;   }
+  .cinco {
+      grid-area: cinco;     }
+  .seis {
+      grid-area: seis;
+      }
+
+      .lomas {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 40px;
+        grid-template-areas: "siete ocho nueve diez";
+        padding: 10px 30px 30px 30px;         }
+    
+        .siete {
+            grid-area: siete;          }
+        .ocho {
+            grid-area: ocho;           }  
+        .nueve {
+            grid-area: nueve;            }
+        .diez {
+            grid-area: diez;
+                }
+
+  
+
+                .tamañoSub2 {
+                  background-color: #BEFFCB;
+                  color: black;
+                  font-size: 25px;
+                  font-family: "Poppins", sans-serif;
+                  text-decoration: none;
+                  justify-content: center;
+                  display: flex;
+                  padding: 1px;
+                  margin: 0px;
+                } 
+ 
+
+
+
+
+.mainNos {
+  padding: 0px 20px 90px 20px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+.h1Nos {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  justify-content: center;
+  display: flex;
+  font-size: 40px;
+}
+.h3Nos {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  justify-content: center;
+  display: flex;
+  font-size: 20px;
+}
+.h4Nos {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  justify-content: center;
+  display: flex;
+  font-size: 18px;
+}
+
+.form {
+  padding: 0px 20px 30px 20px;
+}/*# sourceMappingURL=style.css.map */
