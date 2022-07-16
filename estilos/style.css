@@ -12,13 +12,20 @@
   padding: 0;
 }
 
+.h2Ind {
+  display: grid;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 header {
   background-color: #CDCDCD;
   padding: 30px 50px 0px 20px;
   display: grid;
   justify-content: center;
 }
-header nav ul li {
+header nav {
   list-style-type: none;
   display: inline-flex;
   padding: 5px 0px 10px 30px;
@@ -26,15 +33,15 @@ header nav ul li {
   color: black;
   text-decoration: none;
 }
-.secciones {
+header nav ul .secciones {
   display: flex;
   justify-content: center;
 }
-#logo {
+header nav ul li #logo {
   display: flex;
   justify-content: center;
 }
-a {
+header nav ul li a {
   font-family: "Poppins", sans-serif;
   color: black;
   text-decoration: none;
@@ -50,17 +57,17 @@ footer {
   grid-template-areas: "p1" "p2";
   justify-items: center;
 }
-.p1 {
+footer .p1 {
   grid-area: p1;
 }
-.p2 {
+footer .p1 .p2 {
   grid-area: p2;
 }
 
 .mainH {
   margin-bottom: 80px;
 }
-.tamañoSub {
+.mainH .tamañoSub {
   background-color: #BEFFCB;
   color: black;
   font-size: 15px;
@@ -71,16 +78,10 @@ footer {
   padding: 1px;
   margin: 0px;
 }
-.carrusel {
+.mainH .tamañoSub .carrusel {
   margin: 0px;
 }
-.h2Ind {
-  display: grid;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  justify-content: center;
-}
-.lomas2 {
+.mainH .tamañoSub .carrusel .lomas2 {
   display: grid;
   justify-content: center;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -89,79 +90,90 @@ footer {
   grid-template-areas: "siete2 ocho2 nueve2 diez2";
   padding: 20px 30px 5px 30px;
 }
-.siete2 {
+.mainH .tamañoSub .carrusel .lomas2 .siete2 {
   grid-area: siete2;
 }
-.ocho2 {
+.mainH .tamañoSub .carrusel .lomas2 .ocho2 {
   grid-area: ocho2;
 }
-.nueve2 {
+.mainH .tamañoSub .carrusel .lomas2 .nueve2 {
   grid-area: nueve2;
 }
-.diez2 {
+.mainH .tamañoSub .carrusel .lomas2 .diez2 {
   grid-area: diez2;
 }
 
-.divIndex {
+.mainH {
+  margin-bottom: 80px;
+}
+.mainH .tamañoSub {
+  background-color: #BEFFCB;
+  color: black;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
+  padding: 1px;
+  margin: 0px;
+}
+.mainH .tamañoSub .lomas2 {
   display: grid;
   justify-content: center;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1f;
-  gap: 0px 5px;
-  grid-template-areas: " uno dos tres" " cuatro cinco seis";
-  padding-left: 200px;
-  padding-bottom: 40px;}
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 40px;
+  grid-template-areas: "siete2 ocho2 nueve2 diez2";
+  padding: 20px 30px 5px 30px;
+}
+.mainH .tamañoSub .lomas2 .siete2 {
+  grid-area: siete2;
+}
+.mainH .tamañoSub .lomas2 .ocho2 {
+  grid-area: ocho2;
+}
+.mainH .tamañoSub .lomas2 .nueve2 {
+  grid-area: nueve2;
+}
+.mainH .tamañoSub .lomas2 .diez2 {
+  grid-area: diez2;
+}
 
-  .uno {
-      grid-area: uno; }
-  .dos {
-      grid-area: dos;  }
-  .tres {
-      grid-area: tres;  }
-  .cuatro {
-      grid-area: cuatro;   }
-  .cinco {
-      grid-area: cinco;     }
-  .seis {
-      grid-area: seis;
-      }
-
-      .lomas {
-        display: grid;
-        justify-content: center;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-        gap: 0px 40px;
-        grid-template-areas: "siete ocho nueve diez";
-        padding: 10px 30px 30px 30px;         }
-    
-        .siete {
-            grid-area: siete;          }
-        .ocho {
-            grid-area: ocho;           }  
-        .nueve {
-            grid-area: nueve;            }
-        .diez {
-            grid-area: diez;
-                }
-
-  
-
-                .tamañoSub2 {
-                  background-color: #BEFFCB;
-                  color: black;
-                  font-size: 25px;
-                  font-family: "Poppins", sans-serif;
-                  text-decoration: none;
-                  justify-content: center;
-                  display: flex;
-                  padding: 1px;
-                  margin: 0px;
-                } 
- 
-
-
-
+.mainH {
+  margin-bottom: 80px;
+}
+.mainH .tamañoSub {
+  background-color: #BEFFCB;
+  color: black;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
+  padding: 1px;
+  margin: 0px;
+}
+.mainH .tamañoSub .lomas2 {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 40px;
+  grid-template-areas: "siete2 ocho2 nueve2 diez2";
+  padding: 20px 30px 5px 30px;
+}
+.mainH .tamañoSub .lomas2 .siete2 {
+  grid-area: siete2;
+}
+.mainH .tamañoSub .lomas2 .ocho2 {
+  grid-area: ocho2;
+}
+.mainH .tamañoSub .lomas2 .nueve2 {
+  grid-area: nueve2;
+}
+.mainH .tamañoSub .lomas2 .diez2 {
+  grid-area: diez2;
+}
 
 .mainNos {
   padding: 0px 20px 90px 20px;
@@ -169,7 +181,7 @@ footer {
   font-family: "Poppins", sans-serif;
   color: black;
 }
-.h1Nos {
+.mainNos .h1Nos {
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   color: black;
@@ -177,7 +189,7 @@ footer {
   display: flex;
   font-size: 40px;
 }
-.h3Nos {
+.mainNos .h1Nos .h3Nos {
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   color: black;
@@ -185,7 +197,7 @@ footer {
   display: flex;
   font-size: 20px;
 }
-.h4Nos {
+.mainNos .h1Nos .h3Nos .h4Nos {
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   color: black;
