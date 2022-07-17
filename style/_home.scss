@@ -1,33 +1,6 @@
-.divIndex {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1f;
-    gap: 0px 5px;
-    grid-template-areas: " uno dos tres" " cuatro cinco seis";
-    padding-left: 200px;
-    padding-bottom: 40px;
-
-    .uno {
-        grid-area: uno;
-    .dos {
-        grid-area: dos;
-    .tres {
-        grid-area: tres;
-    .cuatro {
-        grid-area: cuatro;
-    .cinco {
-        grid-area: cinco;
-    .seis {
-        grid-area: seis;
-        }
-       }
-      }
-     }
-    }
-   }
-  }
-
+.container{
+   padding-left: 150px;
+}
 
   .lomas {
     display: grid;
@@ -45,13 +18,24 @@
     .nueve {
         grid-area: nueve;
     .diez {
-        grid-area: diez;
+        grid-area:
+         diez;
             }
         }
        }    
       }
      }
-
+     .tamañoSub {
+        background-color: #BEFFCB;
+        color: black;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        text-decoration: none;
+        justify-content: center;
+        display: flex;
+        padding: 1px;
+        margin: 0px;
+     }
      .tamañoSub2 {
         background-color: #BEFFCB;
         color: black;
@@ -63,3 +47,12 @@
         padding: 1px;
         margin: 0px;
       } 
+
+
+      @media(min-width:375px){
+
+.container{
+width: 50px;
+}
+
+      }

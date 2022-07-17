@@ -12,40 +12,40 @@
   padding: 0;
 }
 
+#logo {
+  display: grid;
+  justify-content: center;
+}
+
+header {
+  padding: 30px 50px 0px 20px;
+  background-color: #CDCDCD;
+  display: grid;
+  justify-content: center;
+}
+header nav {
+  display: inline-block;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+header nav ul li {
+  list-style-type: none;
+  padding: 5px 0px 10px 30px;
+}
+header nav ul li a {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
 .h2Ind {
   display: grid;
   justify-content: center;
   padding-top: 30px;
   padding-bottom: 30px;
-}
-
-header {
-  background-color: #CDCDCD;
-  padding: 30px 50px 0px 20px;
-  display: grid;
-  justify-content: center;
-}
-header nav {
-  list-style-type: none;
-  display: inline-flex;
-  padding: 5px 0px 10px 30px;
-  font-family: "Poppins", sans-serif;
-  color: black;
-  text-decoration: none;
-}
-header nav ul .secciones {
-  display: flex;
-  justify-content: center;
-}
-header nav ul li #logo {
-  display: flex;
-  justify-content: center;
-}
-header nav ul li a {
-  font-family: "Poppins", sans-serif;
-  color: black;
-  text-decoration: none;
-  font-size: 20px;
 }
 
 footer {
@@ -64,6 +64,17 @@ footer .p1 .p2 {
   grid-area: p2;
 }
 
+@media (min-width: 375px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #CDCDCD;
+    display: grid;
+    justify-content: center;
+  }
+}
 .mainH {
   margin-bottom: 80px;
 }
@@ -78,10 +89,7 @@ footer .p1 .p2 {
   padding: 1px;
   margin: 0px;
 }
-.mainH .tamañoSub .carrusel {
-  margin: 0px;
-}
-.mainH .tamañoSub .carrusel .lomas2 {
+.mainH .lomas2 {
   display: grid;
   justify-content: center;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -90,16 +98,16 @@ footer .p1 .p2 {
   grid-template-areas: "siete2 ocho2 nueve2 diez2";
   padding: 20px 30px 5px 30px;
 }
-.mainH .tamañoSub .carrusel .lomas2 .siete2 {
+.mainH .lomas2 .siete2 {
   grid-area: siete2;
 }
-.mainH .tamañoSub .carrusel .lomas2 .ocho2 {
+.mainH .lomas2 .ocho2 {
   grid-area: ocho2;
 }
-.mainH .tamañoSub .carrusel .lomas2 .nueve2 {
+.mainH .lomas2 .nueve2 {
   grid-area: nueve2;
 }
-.mainH .tamañoSub .carrusel .lomas2 .diez2 {
+.mainH .lomas2 .diez2 {
   grid-area: diez2;
 }
 
@@ -208,4 +216,60 @@ footer .p1 .p2 {
 
 .form {
   padding: 0px 20px 30px 20px;
+}
+
+.container {
+  padding-left: 150px;
+}
+
+.lomas {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 40px;
+  grid-template-areas: "siete ocho nueve diez";
+  padding: 10px 30px 30px 30px;
+}
+.lomas .siete {
+  grid-area: siete;
+}
+.lomas .siete .ocho {
+  grid-area: ocho;
+}
+.lomas .siete .ocho .nueve {
+  grid-area: nueve;
+}
+.lomas .siete .ocho .nueve .diez {
+  grid-area: diez;
+}
+
+.tamañoSub {
+  background-color: #BEFFCB;
+  color: black;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
+  padding: 1px;
+  margin: 0px;
+}
+
+.tamañoSub2 {
+  background-color: #BEFFCB;
+  color: black;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
+  padding: 1px;
+  margin: 0px;
+}
+
+@media (min-width: 375px) {
+  .container {
+    width: 50px;
+  }
 }/*# sourceMappingURL=style.css.map */

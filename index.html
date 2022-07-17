@@ -12,13 +12,15 @@
     <title>So Urban</title>
 </head>
 <body>
+
+
   <header>
+    <li id="logo">
+      <a href="index.html"> <img src="./img/logo_small.png" alt="" width="130px" > </a>
+    </li>
+
     <nav> 
       <ul>
-            <li id="logo">
-                <a href="index.html"> <img src="./img/logo_small.png" alt="" width="80px" > </a>
-            </li>
-            <ul class="secciones">
             <li>
                 <a href="./secciones/hombre.html">Hombre</a>
             </li>
@@ -31,15 +33,15 @@
             <li>
                 <a href="./secciones/nosotros.html">Nosotros</a>
             </li> 
-        </ul>
       </ul>
-     </nav>
+    </nav>
+    
   </header>
 
 
  
 
-<main>
+
 
   <div class="alert alert- alert-dismissible fade show tamañoSub" role="alert">
     <strong> Suscribite y obtené 15% de descuento.</strong> <a href="#" class="alert-link tamañoSub"> Click Aqui!</a>
@@ -74,27 +76,36 @@
   </h2>
 </section>
 
-  <div class="divIndex">
-     <div class="uno">
-       <img src="./img/logoAdidas.png" alt="" width="170px">
-     </div>
-     <div class="dos">
-       <img src="./img/Nike-logo.jpg" alt="" width="160px">
-     </div>
-     <div class="tres">
-       <img src="./img/logoPuma.jpg" alt="" width="170px">
-     </div>
-    <div class="cuatro">
-      <img src="./img/modeloAdidas.jpg" alt="" width="170px" height="370px">
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <img src="./img/logoAdidas.png" alt="" width="170px">
     </div>
-    <div class="cinco">
-      <img src="./img/modeloNike.jpg" alt="" width="160px" height="370px">
+    <div class="col">
+      <img src="./img/Nike-logo.jpg" alt="" width="160px">
     </div>
-    <div class="seis">
-      <img src="./img/modeloPuma2.png" alt="" width="170px" height="370px">
-    </div> 
+    <div class="col">
+      <img src="./img/logoPuma.jpg" alt="" width="170px">
+    </div>
+  </div>
 </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <img src="./img/modeloAdidas.jpg" alt="">
+    </div>
+    <div class="col">
+      <img src="./img/modeloNike.jpg" alt="" >
+    </div>
+    <div class="col">
+      <img src="./img/modeloPuma.jpg" alt="">
+    </div>
+  </div>
 </div>
+
+
 
 <h2 class="h2Ind">Lo más visto</h2>
  
@@ -228,7 +239,7 @@
   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 </div>
 
-</main>
+
 
 
 
